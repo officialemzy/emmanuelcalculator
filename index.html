@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+<div class="whole-content">
+  <nav class="heading">
+    <h1>calc</h1>
+    <h2>ERROR!</h2>
+    <h3>THEME</h3>
+    <div class="theme"> 
+      <div class="num-theme">
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+      </div>
+      <div class="parent-theme">
+        <div class="theme1"></div>
+        <div class="theme2"></div>
+        <div class="theme3"></div>
+      </div>
+
+    </div>
+  </nav>
+  
+  <input id="result" type="text" class="answers">
+
+  <div class="btns">
+    <ul class="list1">
+      <li><button id="btnI" value="7" class="btnInp seven">7</button></li>
+      <li><button id="btnI" value="8" class="btnInp eight">8</button></li>
+      <li><button id="btnI" value="9" class="btnInp nine">9</button></li>
+      <li><button class="del">DEL</button></li>
+    </ul>
+    <ul class="list2">
+      <li><button id="btnI" value="4" class="btnInp four">4</button></li>
+      <li><button id="btnI" value="5" class="btnInp five" >5</button></li>
+      <li><button id="btnI" value="6" class="btnInp six">6</button></li>
+      <li><button id="btnI" value="+" class="btnInp plus">+</button></li>
+    </ul>
+    <ul class="list3">
+      <li><button id="btnI" value="1" class="btnInp one">1</button></li>
+      <li><button id="btnI" value="2" class="btnInp two">2</button></li>
+      <li><button id="btnI" value="3" class="btnInp three">3</button></li>
+      <li><button id="btnI" value="-" class="btnInp minus">-</button></li>
+    </ul>
+    <ul class="list4">
+      <li><button id="btnI" value="." class="btnInp point">.</button></li>
+      <li><button id="btnI" value="0" class="btnInp zero">0</button></li>
+      <li><button id="btnI" value="/" class="btnInp divide">/</button></li>
+      <li><button id="btnI" value="*" class="btnInp multiply">x</button></li>
+    </ul>
+    <ul class="list5">
+      <li><button class="reset">RESET</button></li>
+      <li><button class="equal">=</button></li>
+    </ul>
+ 
+  </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
